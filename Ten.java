@@ -19,6 +19,7 @@ public class Ten {
         System.out.println("enter phone number");
         long phone = sc.nextLong();
         System.out.println("i entered: " + phone);  
+        sc.close();
     }
 
             
