@@ -31,5 +31,6 @@ public class Twelve {
                 System.out.println("Invalid operator");
                 break;
         }
+        sc.close();
     }
 }
