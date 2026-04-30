@@ -23,10 +23,14 @@ public class Twelve {
                 res = a * b;
                 System.out.println("Mul = " + res);
                 break;
-            case "/":
-                res = a / b;
-                System.out.println("Div = " + res);
-                break;
+             case "/":
+                    if (b != 0) {
+                        res = a / b;
+                        System.out.println("Div = " + res);
+                    } else {
+                        System.out.println("Cannot divide by zero");
+                    }
+                    break;
             default:
                 System.out.println("Invalid operator");
                 break;
