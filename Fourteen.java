@@ -1,5 +1,5 @@
 import java.util.Scanner;
-   //
+   //program to print multiplication table of a number
 class Fourteen {
     public static void main(String[] args) {
         System.out.print("Enter a number: ");

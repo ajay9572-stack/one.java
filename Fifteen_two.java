@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Fifteen_two {
-    // program to find factorial of a number with decrementing loop
+    // program to find factorial of a number with decrementing loop4
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number: ");
