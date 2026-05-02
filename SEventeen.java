@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class SEventeen {
+public class Seventeen {
+    
         // reverse a number
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
