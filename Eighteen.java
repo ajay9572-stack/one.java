@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Eighteen {
+    // reverse a string
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
@@ -12,5 +13,6 @@ public class Eighteen {
         }
 
         System.out.println("Reversed string: " + reversed);
+        sc.close();
     }
 }
