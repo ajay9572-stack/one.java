@@ -1,6 +1,7 @@
  import java.util.Scanner;
 
 public class Ninteen {
+    // check if a number is prime or not
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -18,6 +19,7 @@ public class Ninteen {
             System.out.println("Not prime");
         } else {
             System.out.println("Number is prime");
+            sc.close();
         }
     }
 } 
