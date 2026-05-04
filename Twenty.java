@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Twenty {
+    // print first n natural numbers
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
