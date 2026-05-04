@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class TwentyOne {
+    // sum of first n natural numbers
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -15,5 +16,6 @@ public class TwentyOne {
         }
         
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 }
