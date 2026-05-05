@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+    // check if a number is palindrome or not
 class TwentyTwo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,5 +19,6 @@ class TwentyTwo {
             System.out.println("Palindrome");
         else
             System.out.println("Not Palindrome");
+        sc.close();
     }
 }
