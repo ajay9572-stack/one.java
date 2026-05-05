@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+        // find largest of n numbers
 class TwentyThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -18,5 +18,6 @@ class TwentyThree {
         }
 
         System.out.println("Largest = " + max);
+        sc.close();
     }
 }
