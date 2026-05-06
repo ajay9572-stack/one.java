@@ -1,5 +1,5 @@
 import java.util.Scanner;
-// print first n Fibonacci numbers using recursion
+  //` print first n Fibonacci numbers using recursion
 
 public class TwentySix {
     static int a = 0, b = 1, c;
@@ -12,6 +12,7 @@ public class TwentySix {
 
         TwentySix ob = new TwentySix();
         ob.printfib(n - 2);  
+        sc.close();
     }
 
     void printfib(int i) {
@@ -22,5 +23,7 @@ public class TwentySix {
             b = c;
             printfib(i - 1);
         }
+        
     }
+    
 }
