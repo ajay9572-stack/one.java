@@ -33,5 +33,7 @@ public class ThirtyFive {
 
             System.out.println();
         }
+        sc.close();
     }
+
 }
