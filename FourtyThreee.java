@@ -20,5 +20,6 @@ public class FourtyThreee {
             }
             System.out.println();
     }
+    sc.close();
     }
 }
