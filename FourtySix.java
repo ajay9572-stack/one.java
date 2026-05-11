@@ -18,5 +18,6 @@ public class FourtySix {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
