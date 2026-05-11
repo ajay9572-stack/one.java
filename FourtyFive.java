@@ -18,5 +18,6 @@ class FourtyFive {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
