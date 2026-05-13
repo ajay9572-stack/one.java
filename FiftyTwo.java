@@ -13,5 +13,6 @@ public class FiftyTwo {
             } 
             System.out.println();
         }
+        sc.close();
     }
 }
