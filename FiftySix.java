@@ -18,5 +18,6 @@ public class FiftySix {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
